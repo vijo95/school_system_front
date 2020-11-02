@@ -1,0 +1,52 @@
+.task-element{
+  padding: 15px;
+  border-radius: 15px !important;
+  background-color: rgba(0, 234, 255, 0.2) !important;
+  margin-bottom: 15px;
+}
+
+.task-element p{
+  text-align: left;
+}
+
+.task-element h4{
+  color: darkgray;
+  font-weight: bold;
+}
+
+.task-element h5, .task-element h3{
+  color: black;
+  font-weight: bold;
+}
+
+
+.task-passed{
+  background-color: rgba(52, 186, 58, 0.7) !important;
+}
+.task-passed h4{
+  color:#FAFAFA;
+}
+
+.task-failed{
+  background-color: rgba(213, 0, 0, 0.7) !important;
+}
+.task-failed h4{
+  color:#FAFAFA;
+}
+
+.hideText{
+  display: none;
+}
+.showText{
+  display: block;
+}
+
+
+@media (max-width: 740px){
+  .task-element p{
+    display: none;
+  }
+  .task-element h3, .task-element h4, .task-element h5{
+    font-size: 1rem;
+  }
+}

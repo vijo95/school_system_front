@@ -1,0 +1,42 @@
+.test-element{
+  padding: 15px;
+  border-radius: 15px !important;
+  background-color: rgba(255, 196, 0, 0.2) !important;
+  margin: 0px 10px 10px 10px;
+  flex: 0 0 45%;
+  height: fit-content;
+}
+
+.test-element h4{
+  font-weight: bold;
+  color:#90A4AE;
+}
+
+.test-element h5, .test-element h3{
+  color: black;
+  font-weight: bold;
+}
+
+.test-passed{
+  background-color: rgba(52, 186, 58, 0.7) !important;
+}
+.test-passed h4{
+  color:#FAFAFA;
+}
+
+.test-failed{
+  background-color: rgba(213, 0, 0, 0.7) !important;
+}
+.test-failed h4{
+  color:#FAFAFA;
+}
+
+@media (max-width: 917px){
+  .test-element {
+    flex: 0 0 100%;
+    margin-bottom: 15px;
+  }
+  .test-element h3, .test-element h4, .test-element h5{
+    font-size: 1rem;
+  }
+}

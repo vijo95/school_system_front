@@ -1,0 +1,12 @@
+.task-list{
+  width:50%;
+  cursor: pointer;
+}
+
+.task-list-scroll{
+  padding: 20px;
+  text-align:center;
+  height: 600px;
+  overflow: scroll;
+  margin-bottom: 50px;
+}

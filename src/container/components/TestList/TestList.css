@@ -1,0 +1,13 @@
+.test-list{
+  width:50%;
+}
+
+.test-list-scroll{
+  padding: 20px;
+  height: 600px;
+  overflow: scroll;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}

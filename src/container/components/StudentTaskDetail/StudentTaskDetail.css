@@ -1,0 +1,24 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid #ECEFF1;
+  text-align: left;
+  padding: 8px;
+}
+i {
+  font-weight: bold;
+}
+
+@media (max-width: 540px){
+  .task-header{
+    width:90% !important;
+  }
+  table{
+    width: 97%;
+  }
+}
